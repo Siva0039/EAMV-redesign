@@ -1,0 +1,137 @@
+* {
+    font-family: Arial;
+
+}
+
+.knap-right1 {
+    position: absolute;
+    right: 0;
+}
+.knap-right2
+{
+    position: absolute;
+    right: 70px;
+}
+.nav {
+    display: inline-block;
+    float: none;
+}
+
+.li {
+    text-align: center;
+}
+
+.footer {
+    background-color: #263238;
+    height: 5%;
+}
+
+.footer-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.navbar-nav > li{
+    padding-left:100px;
+    padding-right:100px;
+  }
+
+ footer {
+    background-color: #0A6CC2;
+    color: #FFFFFF;
+  }
+
+  .indhold {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+
+iframe {
+    height: 30vh;
+    width: 55vh ;
+}
+
+/* hover effekt*/
+a.btn-primary:hover, a.btn-primary:focus {
+    background-color: #0A6CC2 !important;
+    color: white !important;
+    border-color: #0A6CC2 !important;
+  }
+  
+  
+.btn-warning:hover {
+    background-color: #0A6CC2 !important;
+  }
+
+.knap-right2:hover {
+    background-color: #0A6CC2 !important;
+ 
+}
+.knap-right1:hover {
+    background-color: #0A6CC2 !important;
+ 
+}
+
+.search1:hover {
+    background-color: #0A6CC2 !important;
+ 
+}
+
+.nav-link:hover {
+    color:#0A6CC2 !important;
+}
+
+@media (max-width: 576px) {
+    .text-sm {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 375px) {
+    .text-xs {
+      font-size: 12px;
+    }
+  }
+
+
+  /*p tekst*/
+  @media (max-width: 600px) {
+    .test {
+      font-size: 10px;
+    }
+  }
+  @media (max-width: 375px) {
+    .test {
+      font-size: 8px;
+    }
+  
+/* h3 tekst*/
+}
+  @media (max-width: 600px) {
+    .test2 {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 375px) {
+    .test2 {
+      font-size: 10px;
+    }
+  }
